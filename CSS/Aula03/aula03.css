@@ -1,0 +1,18 @@
+/* .nameClass{
+    color: blue;
+    background-color: azure;
+}
+#nameclass{
+    color: aliceblue;
+    background-color: black;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+body{
+    background-color: chocolate;
+}

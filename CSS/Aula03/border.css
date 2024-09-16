@@ -1,0 +1,12 @@
+h1{
+    border-top: 5px solid cornflowerblue;
+    border-right: 5px solid cornflowerblue ;
+    border-bottom:5px solid cornflowerblue ;
+    border-left: 5px solid cornflowerblue;
+}
+
+h2{
+    border:5px solid black;
+    border-radius:5px;
+    
+}

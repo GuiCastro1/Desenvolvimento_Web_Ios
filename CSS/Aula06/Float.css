@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 20px;
+    /* font-family: "Merriweather", serif; */
+}
+
+
+
+.conteiner{
+    margin: 14px;
+    padding: 14px;
+    border:3px solid;
+    overflow: auto;
+}
+.conteiner img {
+    float:right;
+    height: 200px;
+    width: 300px;
+    
+}
+
+.t{
+    text-align: center;
+}
+
+.conteine{
+    margin: 14px;
+    padding: 14px;
+    border:3px solid;
+    overflow: auto;
+}
+.conteine img {
+    float: right;
+    
+}
+
+.t{
+    text-align: center;
+}
+
+.contein{
+    margin: 14px;
+    padding: 14px;
+    border:3px solid;
+    overflow: auto;
+}
+.contein img {
+    float: left;
+    
+}
+
+
+
+
+.t{
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.d2{
+    border:3px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 15px;
+    
+}
+.p1{
+color: black;
+padding: 10px;
+}
+.p2{
+color:black;
+padding: 10px;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+
+}
+
+.d2{
+    border:5px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 15px;
+    
+}
+.p1{
+color: rgb(255, 255, 255);
+background-color: blue;
+padding: 10px;
+float: right;
+}
+.p2{
+color:rgb(255, 255, 255);
+background-color: blueviolet;
+padding: 10px;
+clear: right;
+} */

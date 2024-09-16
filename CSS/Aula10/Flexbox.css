@@ -1,0 +1,61 @@
+/* *{
+margin: 0;
+padding: 0;
+} */
+
+/* .box{text-align: center;
+    font-size: 80px;
+    margin-bottom: 5px;
+    height: 100px;
+    width: 100px;
+
+} */
+.box{
+   
+    padding: 15px;
+    background-color: silver;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    /* flex-direction: column; */
+    /* Alinha os elementos no cross axis */
+    /* flex-direction: column-reverse; */
+    /*  Alinha os elementos no cross axis na parte inferior da tela */
+    /* flex-direction: row; */
+    /* Alinha os elementos em linha no main axis */
+    /* flex-direction: row-reverse; */
+    /* Alinha os elementos em linha no main axis do contrario */
+    flex-flow:  row wrap;
+    /* Permite usar dois flex-direction */
+    justify-content:center;
+    align-items:center;
+    /* overflow: auto; */
+}
+.box1{
+    /* order: 3; */
+    text-align: center;
+    font-size: 80px;
+    margin: 10px;
+    background-color:red;
+    height: 100px;
+    width: 100px;
+}
+ .box2{
+    /* overflow: auto; */
+    /* order: 1; */
+    text-align: center;
+    font-size: 80px;
+    margin: 10px;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+.box3{
+    /* order:2; */
+    text-align: center;
+    font-size: 80px;
+    margin: 10px;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+} 

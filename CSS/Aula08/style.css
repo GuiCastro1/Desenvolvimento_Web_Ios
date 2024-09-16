@@ -1,0 +1,13 @@
+/* p::after{
+    content:AULA ;  
+}
+
+p::before{
+    content: oito;
+} */
+
+p::first-letter{
+    color: blue;
+    font-size: 2em;
+}
+

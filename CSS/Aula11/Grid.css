@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.c0{
+    background-color: blueviolet;
+    height: 50vh;
+    color: aliceblue;
+    font-size: 2rem;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(4,1fr); */
+    grid-template-rows: ;
+}
+
+.c01{
+
+}
+
+.c02{
+
+}
+
+.c03{
+
+}
+
+.c04{
+
+}
+
+.c05{
+
+}
+
+.c06{
+
+}

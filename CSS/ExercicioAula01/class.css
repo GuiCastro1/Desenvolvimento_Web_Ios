@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background-color: rgba(63, 20, 255, 0.452);
+}
+h1{
+    text-shadow: 2px 2px 2px;
+}
+p.justificado{
+    text-align: justify;
+    font-family: "Chakra Petch", sans-serif;
+}
+.itensob{
+    text-align: justify;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 2cm;
+}
+.hdois{
+    font-size: 50px;
+    font-family: "Chakra Petch", sans-serif;
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    background-color: aqua;
+    color:black;
+    border: 3px solid;
+    margin: 300px;
+    padding: 200px;
+
+
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.conteiner{
+    display:grid;
+
+    gap:5px;
+
+    grid-template-columns: repeat(4,1fr);
+
+    grid-template-rows: repeat(3,1fr);
+
+    /* justify-items: center; ALINHA A LINHA HORIZONTAL DO TEXTO */
+    /* align-items: ALINHA A LINHA VERTICAL DO TEXTO; */
+
+    place-items: start center;/*JUNTA AS DUAS FUNÇÕES ACIMA*/
+
+
+    /* COMO O ITEM SE COMPORTA NO CONTEINER
+    
+    + JUSTIFY-CONTENT:SPACE-BETWEEN
+    + ALIGN-CONTENT:CENTER
+    + PLACE-CONTENT: SPACE-BETWEEN CENTER
+    
+    */
+}

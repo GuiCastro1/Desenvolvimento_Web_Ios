@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+h1{
+    text-shadow: -5px -5px 5px red ;
+}
+
+h2{
+    /* text-shadow: 5px 5px 5px green; */
+    
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:  20px;
+    text-align: justify center;
+    color: blue;
+}
+
+.titulo{
+    font-family:"Silkscreen", sans-serif; 
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.paragrafo{
+    font-family:"Silkscreen", sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    color:rgb(139, 23, 255) ;
+}
+
+.paragrafo2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: right justify;
+    color: darkred;
+}

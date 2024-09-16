@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+<header>
+    <h1>AULA 02 FORMULARIO</h1>
+</header>
+
+<main>
+
+    <section>
+        <form action="maltio">
+            <fieldset>
+                <legend><strong>Dados do Aluno</strong></legend>
+            
+        <label for="nome"><strong>Nome:</strong></label>
+        <input type="text" id="nome"><br><br>
+
+        <label for="email"><strong>E-mail;</strong></label>
+        <input type="email" id="email"><br><br>
+
+        <label for="idade"><strong>Ideda</strong></label>
+        <input type="number" id="idade"><br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Dados do Aluno</strong></legend>
+        <label for="listadeunidades"><strong>Selecione sua Unidade</strong></label> <br><br>
+            
+            <select name="listadeunidades" id="listadeunidades">
+                <option value="op1" desabled selected>Unidade</option>
+                <option value="santana">Santana</option>
+                <option value="santo_amaro">Santo Amaro</option>
+                <option value="diadema">Diadema</option>
+                <option value="Itaquera">Itaquera</option>
+                <option value="são_paulo">São Paulo</option>
+            </select>
+            <br><br>
+
+        <label for="listadeunidades"><strong>Selecione sua Unidade</strong></label> <br><br>
+            
+            <select name="listadeunidades" id="listadeunidades">
+                <option value="op1" selected hidden></option>
+                <option value="santana">Santana</option>
+                <option value="santo_amaro">Santo Amaro</option>
+                <option value="diadema">Diadema</option>
+                <option value="Itaquera">Itaquera</option>
+                <option value="são_paulo">São Paulo</option>
+            </select>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Adicionais</strong></legend>
+            <strong>Onde voce mora?</strong><br><br>
+            <input type="text" list="cidades" autocomplete="on" name="listaCidades" placeholder="Digite sua Cidade"> 
+
+            <datalist id="cidade">
+                <option value="São Paulo"></option>
+                <option value="Santo André"></option>
+                <option value="Juquitiba"></option>
+                <option value="Osasco"></option>
+                <option value="Lapa"></option>
+            </datalist>
+            <br><br>
+
+<textarea name="avaliacao" id="" cols="30" rows="10" placeholder="Deixe sua Opinão" maxlength="50"
+></textarea>
+        </fieldset>
+
+
+
+
+
+            
+        
+        <input type="submit" value="enviar">
+        </form>
+    </section>
+
+
+<!--https://www.w3schools.com/html/html_basic.asp-->
+
+</main>
+
+<footer>
+
+
+
+</footer>
+
+
+   
+</body>
+</html>

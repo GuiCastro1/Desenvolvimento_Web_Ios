@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-image: url('img/rick-and-morty-pc-4k-ks9x4010rl0fycrb.jpg');
+    background-size: cover; 
+     background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgb(23, 14, 107);
+    text-align: center;
+    font-size:100px ;
+    font-family: "Honk", system-ui;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 300%;
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    
+}

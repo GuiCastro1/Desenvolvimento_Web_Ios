@@ -1,0 +1,44 @@
+.c0 {
+    height: 100vh;
+
+    background-color: aliceblue;
+
+    display: grid;
+
+    gap: 5px;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+.c1 {
+    background-color: tomato;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.c2 {
+    background-color: yellow;
+}
+
+.c3 {
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.c4 {
+    background-color: darkgray;
+}
+
+.c5 {
+    background-color: bisque;
+    grid-column-start: -1;
+    grid-column-end: -5;
+    grid-row-start: 3;
+    grid-row-end: -3;
+}

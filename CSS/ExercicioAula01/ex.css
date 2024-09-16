@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+body{
+    background-color:#8C3041 ;
+}
+
+p{
+    color:#F2D16D;
+    font-family:"Silkscreen", sans-serif;
+    font-size:20px;
+    text-align: justify;
+}

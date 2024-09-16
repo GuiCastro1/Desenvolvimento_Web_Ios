@@ -1,0 +1,17 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+.b{
+    display: block;
+}
+.bo{
+    display: inline;
+}
+.box{
+    display: inline-block;
+}
+.box1{
+    display:none ;
+}

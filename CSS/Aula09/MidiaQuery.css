@@ -1,0 +1,44 @@
+ @media screen and (min-width: 500px) {
+    body {
+      background-color: green;
+    }
+    h1{
+        text-align: center;
+        color: red;
+    }
+    p{
+        font-size: 20px;
+        content: "Vai";
+      }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    body {
+      background-color: blue;
+    }
+    h1{
+        text-align: center;
+        color:aliceblue
+    }
+    p{
+        font-size: 20px;
+        content: "Atenção";
+      }
+  }
+  
+  @media screen and (min-width: 1500px) {
+    body {
+      background-color: red;
+    }
+    h1{
+        text-align: center;
+        color:green;
+    }
+    p{
+        font-size: 20px;
+        content: "Pare";
+      }
+    
+  } 
+
+  

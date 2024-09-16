@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.c0{
+    background-color: blue;
+    color: azure;
+    height: 100vh;
+    display: grid;
+    font-size: 4rem;
+    color:black;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+
+    "header header header header"
+
+    "main main main aside"
+    "main main main aside"
+
+    "footer footer footer footer"
+    
+    
+    ;
+}
+
+.c01{grid-area:header;
+background-color: red;}
+
+.c02{grid-area: main;
+background-color: blue;}
+
+.c03{grid-area: aside;
+background-color: green;}
+
+.c04{grid-area: footer;
+background-color: aqua;}
+/* 6 culonas e 6 linhas(1fração) */

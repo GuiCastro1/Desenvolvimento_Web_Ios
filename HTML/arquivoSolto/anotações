@@ -1,0 +1,25 @@
+clear - limpa o console:
+
+ctrl + L - Limpa o console:
+============================
+new-item - index.html - powershell
+
+touch - index.html - git-bash
+
+git --version - mostra a versão  do git instalado no pc.
+
+git init 
+
+git config --global user.name// define nome de usuário
+
+git config --global user.gmail// define E-mail 
+
+git config --list // config. do git - email/user
+
+git add nomedoarquivo.html// Salva na staget apenas um arquivo.
+
+git add *.html// Salva todos os arquivos na staget area em html
+
+git add *// Salva todos os arquivos na staget
+
+git rm --cached// remove o arquivo da lista 

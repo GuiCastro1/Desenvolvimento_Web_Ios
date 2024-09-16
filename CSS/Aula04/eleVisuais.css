@@ -1,0 +1,12 @@
+body{
+    /* background-image: url('img/JAKE.jfif'); */
+     background-image: url('img/Rick.jfif');
+     /* background-repeat: no-repeat;  SE A IMAGEN E PEQUENA PARA NÃO REPITIR */
+     background-size: cover; 
+     background-attachment: scroll;
+
+}
+
+section{
+    height: 100vh;
+}
